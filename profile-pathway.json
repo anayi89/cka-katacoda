@@ -1,0 +1,55 @@
+{
+    "courses":
+    [
+        {
+            "title": "Application Lifecycle Management",
+            "description": "Learn how to deploy, update, rollback, configure, scale and self heal an application.",
+            "id": "application-lifecycle-management"
+        },
+        {
+            "title": "Installation, Configuration & Validation",
+            "description": "Learn how to design, configure, secure, provision, test and manage a Kubernetes Cluster.",
+            "id": "installation-configuration-validation"
+        },
+        {
+            "title": "Core Concepts",
+            "description": "Learn how to use the Kubernetes API, Services and other concepts.",
+            "id": "core-concepts"
+        },
+        {
+            "title": "Networking",
+            "description": "Learn how to configure the networking infrastructure of Pods, Cluster nodes and load balancers.",
+            "id": "networking"
+        },
+        {
+            "title": "Scheduling",
+            "description": "Learn how to schedule Pods.",
+            "id": "scheduling"
+        },
+        {
+            "title": "Security",
+            "description": "Learn how to configure authentication, authorization, network policies, TLS certificates and secure images.",
+            "id": "security"
+        },
+        {
+            "title": "Cluster Maintenance",
+            "description": "Learn how to upgrade, backup and restore Kubernetes Clusters.",
+            "id": "cluster-maintenance"
+        },
+        {
+            "title": "Logging/Monitoring",
+            "description": "Learn how to monitor and manage all cluster components, applications and application logs.",
+            "id": "logging-monitoring"
+        },
+        {
+            "title": "Storage",
+            "description": "Learn how to create and configure persistent storage volumes.",
+            "id": "storage"
+        },
+        {
+            "title": "Troubleshooting",
+            "description": "Learn how to troubleshoot failure of an application, a control plane, a worker node and networking infrastructure.",
+            "id": "troubleshooting"
+        }
+    ]
+}
