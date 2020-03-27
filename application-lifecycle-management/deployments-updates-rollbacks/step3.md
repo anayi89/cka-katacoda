@@ -1,1 +1,1 @@
-
+`kubectl rollout undo deployment.v1.apps/nginx-deployment`{{execute}}
