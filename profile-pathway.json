@@ -4,6 +4,10 @@
         {
             "title": "CKA - 01 - Application Lifecycle Management",
             "id": "cka-01"
+        },
+        {
+            "title": "CKA - 02 - Cluster Maintenance",
+            "id": "cka-02"
         }
     ]
 }
