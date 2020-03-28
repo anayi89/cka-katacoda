@@ -2,8 +2,8 @@
     "courses":
     [
         {
-            "title": "Certified Kubernetes Administrator",
-            "id": "cka"
+            "title": "CKA - 01 - Application Lifecycle Management",
+            "id": "cka-01"
         }
     ]
 }
