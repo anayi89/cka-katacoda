@@ -2,11 +2,12 @@
     "courses":
     [
         {
-            "title": "CKA - 01 - Application Lifecycle Management",
+            "title": "Certified Kubernetes Administrator - 01 - Application Lifecycle Management",
+            "description": "Learn how to deploy, update, rollback, configure, scale and self heal an application.",
             "id": "cka-01"
         },
         {
-            "title": "CKA - 02 - Cluster Maintenance",
+            "title": "Certified Kubernetes Administrator - 02 - Cluster Maintenance",
             "id": "cka-02"
         }
     ]
