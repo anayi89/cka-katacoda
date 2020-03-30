@@ -4,7 +4,8 @@ With the `kubectl create deployment` command, Kubernetes deploys an image that i
 
 Deploy an application image of the Nginx web server named "my-nginx" with the following command, `kubectl create deployment --image nginx my-nginx`{{execute}}
 
-Verify the deployment with the following commands:
-`kubectl describe deployments`{{execute}}
-
+Verify the deployment with the following command:
 `kubectl get deployments`{{execute}}
+
+For a more detailed description of the application, run the following command:
+`kubectl describe deployments`{{execute}}
