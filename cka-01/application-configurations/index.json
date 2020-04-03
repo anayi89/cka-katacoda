@@ -5,7 +5,7 @@
     "time": "5-10 minutes",
     "details": {
         "assets": {
-            "client": [{"file": "docker-compose.yml", "target": "~/"}]
+            "client": [{"file": "deployment.yml", "target": "~/"}]
         },
         "steps": [
             {"title": "Update a deployment.",  "text": "step1.md"},
