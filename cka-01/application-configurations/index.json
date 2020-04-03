@@ -1,1 +1,34 @@
-`
+{
+    "title": "Application Configurations",
+    "description": "Know various ways to configure applications.",
+    "difficulty": "beginner",
+    "time": "5-10 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Update a deployment.",
+                "text": "step1.md"
+            },
+            {
+                "title": "Apply a label.",
+                "text": "step2.md"
+            },
+            {
+                "title": "Update a label.",
+                "text": "step3.md"
+            },
+            {
+                "title": "Create an annotation.",
+                "text": "step4.md"
+            }
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "kubernetes"
+    }
+}
