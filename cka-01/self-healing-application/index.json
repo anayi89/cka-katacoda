@@ -5,6 +5,7 @@
     "time": "5-10 minutes",
     "details": {
         "assets": {"client": [
+		{"file": "daemonset.yml",             "target": "~/"},
 		{"file": "replicationcontroller.yml", "target": "~/"},
 		{"file": "replicationset.yml",        "target": "~/"}
 	]},
