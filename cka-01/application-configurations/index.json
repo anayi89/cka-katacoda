@@ -4,23 +4,14 @@
     "difficulty": "beginner",
     "time": "5-10 minutes",
     "details": {
+        "assets": {
+            "client": [{"file": "docker-compose.yml", "target": "~/"}]
+        },
         "steps": [
-            {
-                "title": "Update a deployment.",
-                "text": "step1.md"
-            },
-            {
-                "title": "Apply a label.",
-                "text": "step2.md"
-            },
-            {
-                "title": "Update a label.",
-                "text": "step3.md"
-            },
-            {
-                "title": "Create an annotation.",
-                "text": "step4.md"
-            }
+            {"title": "Update a deployment.",  "text": "step1.md"},
+            {"title": "Apply a label.",        "text": "step2.md"},
+            {"title": "Update a label.",       "text": "step3.md"},
+            {"title": "Create an annotation.", "text": "step4.md"}
         ]
     },
     "environment": {
@@ -28,7 +19,5 @@
         "hidefinish": true,
         "uilayout": "terminal"
     },
-    "backend": {
-        "imageid": "kubernetes"
-    }
+    "backend": {"imageid": "kubernetes"}
 }
