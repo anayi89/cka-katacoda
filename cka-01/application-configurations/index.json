@@ -4,9 +4,8 @@
     "difficulty": "beginner",
     "time": "5-10 minutes",
     "details": {
-        "assets": {
-            "client": [{"file": "deployment.yml", "target": "~/"}]
-        },
+        "intro": {"courseData": "deployment.sh"},
+        "assets": {"client": [{"file": "deployment.yml", "target": "~/"}]},
         "steps": [
             {"title": "Update a deployment.",  "text": "step1.md"},
             {"title": "Apply a label.",        "text": "step2.md"},
