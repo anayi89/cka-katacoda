@@ -12,7 +12,7 @@
         "steps": [
             {"title": "The Primitives",          "text": "intro.md"},
 	    {"title": "ReplicationControllers.", "text": "step1.md"},
-            {"title": "ReplicationSets",         "text": "step2.md"},
+            {"title": "ReplicaSets",             "text": "step2.md"},
             {"title": "DaemonSets",              "text": "step3.md"}
         ]
     },
