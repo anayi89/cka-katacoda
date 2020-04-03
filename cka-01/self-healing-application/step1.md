@@ -7,4 +7,4 @@ To deploy the the file, run the command: `kubectl apply -f ~/replicationcontroll
 
 To view the replicacontroller, run the command: `kubectl describe replicationcontrollers/nginx`{{execute}}
 
-To view the pods that have been deployed by the replicaset, run the command: `kubectl get pods --selector=app=nginx --output=jsonpath={.items..metadata.name}`{{execute}}
+To view the pods that have been deployed by the replicaset, run the command: `kubectl get pods --selector=app=nginx --output=jsonpath={.items..metadata.name} | echo`{{execute}}
