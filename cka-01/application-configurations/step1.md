@@ -7,3 +7,5 @@ To view the contents of the YAML file, run the `cat deployment.yml`{{execute}} c
 To deploy YAML file, run the `kubectl apply -f ~/deployment.yml`{{execute}} command.
 
 To edit the Nginx application that has been deployed, run the `kubectl edit deployment/my-nginx`{{execute}} command.
+
+Note: The environment uses the text editor, vi, by default. To edit in vi, press the 'i' key. To escape editor mode, press the 'esc' key. To save, press ':wq!'.
