@@ -1,5 +1,20 @@
 {
-			"course_id": "application-scaling",
-			"title": "Application Scaling",
-			"description": "Know how to scale applications."
-		},
+    "title": "Application Scaling",
+    "description": "Know how to scale applications.",
+    "difficulty": "beginner",
+    "time": "5-10 minutes",
+    "details": {
+        "assets": {"client": [{"file": "deployment.yml", "target": "~/"}]},
+        "steps": [
+            {"title": "Scale an application up.",   "text": "step1.md"},
+            {"title": "Scale an application down.", "text": "step2.md"},
+            {"title": "Autoscale an application.",  "text": "step3.md"}
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "terminal",
+    },
+    "backend": {"imageid": "kubernetes"}
+}
