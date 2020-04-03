@@ -4,7 +4,6 @@
     "difficulty": "beginner",
     "time": "5-10 minutes",
     "details": {
-        "intro": {"courseData": "deployment.sh"},
         "assets": {"client": [{"file": "deployment.yml", "target": "~/"}]},
         "steps": [
             {"title": "Update a deployment.",  "text": "step1.md"},
