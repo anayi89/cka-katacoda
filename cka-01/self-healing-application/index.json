@@ -7,7 +7,7 @@
         "assets": {"client": [
 		{"file": "daemonset.yml",             "target": "~/"},
 		{"file": "replicationcontroller.yml", "target": "~/"},
-		{"file": "replicaset.yml",        "target": "~/"}
+		{"file": "replicaset.yml",            "target": "~/"}
 	]},
         "steps": [
             {"title": "The Primitives",          "text": "intro.md"},
