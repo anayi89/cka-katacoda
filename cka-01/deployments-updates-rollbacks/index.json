@@ -13,7 +13,10 @@
     "environment": {
         "hideintro": true,
         "hidefinish": true,
-        "uilayout": "terminal"
+        "uilayout": "terminal-iframe"
     },
-    "backend": {"imageid": "kubernetes"}
+    "backend": {
+        "imageid": "kubernetes",
+        "port": 8080
+    }
 }
