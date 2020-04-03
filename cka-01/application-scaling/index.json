@@ -15,6 +15,7 @@
         "hideintro": true,
         "hidefinish": true,
         "uilayout": "terminal",
+        "uimessage1": "Please wait for about 1 minute for the environment to fully load."
     },
     "backend": {"imageid": "kubernetes"}
 }
