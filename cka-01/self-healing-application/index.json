@@ -4,7 +4,10 @@
     "difficulty": "beginner",
     "time": "5-10 minutes",
     "details": {
-        "assets": {"client": [{"file": "replication.yml", "target": "~/"}]},
+        "assets": {"client": [
+		{"file": "replicationcontroller.yml", "target": "~/"},
+		{"file": "replicationset.yml",        "target": "~/"}
+	]},
         "steps": [
             {"title": "The Primitives",          "text": "intro.md"},
 	    {"title": "ReplicationControllers.", "text": "step1.md"},
