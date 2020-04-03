@@ -1,11 +1,14 @@
 Labels help organize resources and make them easier to access, review and troubleshoot.
 
-There are 3 different types of labels: app, tier and role.
+Examples of labels:
+  app
+  tier
+  role
 
-Examples of label values
-app: nginx, apache
-tier: frontend, backend
-role: master, worker
+Examples of label values:
+  app: nginx, apache
+  tier: frontend, backend
+  role: master, worker
 
 Given that we deployed an Nginx application, the label would be "nginx".
 Nginx is a front-end web application, so the tier would be "frontend".
