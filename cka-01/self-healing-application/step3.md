@@ -4,4 +4,4 @@ To view the YAML file that deploys a DaemonSet, run the command: `cat ~/daemonse
 
 To deploy the file, run the command: `kubectl apply -f ~/daemonset.yml`{{execute}}
 
-To view the ReplicaSet, run the command: `kubectl describe daemonset`{{execute}}
+To view the DaemonSet, run the command: `kubectl describe daemonset fluentd-elasticsearch -n kube-system`{{execute}}
